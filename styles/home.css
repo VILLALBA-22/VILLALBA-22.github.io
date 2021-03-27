@@ -34,9 +34,14 @@
 .header--two__title{
     width: 20%;
 }
+.header--two__form{
+    width: 49%;
+    display: flex;
+
+}
 
 .header--two__form input[type="text"]{
-    width: 590px;
+    width: 90%;
     height: 40px;
     border-style: none;
     border-top-left-radius: 3px;
@@ -44,16 +49,14 @@
     padding: 10px;
 }
 .fa-search{
+    width: 7%;
     height: 90%;
     padding: 12px;
+    text-align: center;
     background: #E89A00;
-    position: relative;
-    top: 1px;       
-    left: -4px
 }
 
 .header--two__data{
-    justify-self: flex-end;
     width: 31%;
     display: flex;
     justify-content: space-evenly;
